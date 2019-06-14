@@ -42,21 +42,18 @@
 */
 
 .latest{
-    width: 80%;
+    width: 88%;
     height: 620px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 40px;
-    text-align: center;
     background-color: lightblue;
-
+    
 }
 
 .wrapper-latest-pic{
-    width: 22%;
+    width: 22.9%;
     height: 251px;
-    padding: 7px;
-    margin: 5px;
+    padding: 12px;
     background-color: gray;
     float: left;
 
@@ -83,4 +80,29 @@ Funding
 }
 .eightboxes{
 clear:both;
+}
+
+/*  eight boxes section
+*
+*
+*/
+
+.eightboxes{
+    position: relative;
+    width: 88%;
+    height: 2200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    background-color: lightblue;
+
+}
+
+.apps{
+    width: 31.2%;
+    height: 699px;
+    float: left;
+    padding: 12px;
+    background-color: gray;
+    
 }
