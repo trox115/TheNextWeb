@@ -35,3 +35,29 @@
     height:200px;
     margin-left:5px;
 }
+
+/*  latest section
+*
+*
+*/
+
+.latest{
+    width: 80%;
+    height: 620px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    text-align: center;
+    background-color: lightblue;
+
+}
+
+.wrapper-latest-pic{
+    width: 22%;
+    height: 251px;
+    padding: 7px;
+    margin: 5px;
+    background-color: gray;
+    float: left;
+
+}
