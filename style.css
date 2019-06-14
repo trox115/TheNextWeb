@@ -122,7 +122,7 @@ Latest Deals
 }
 .latest-deals-picture{
     width: 22.9%;
-    height: 251px;
+    height: 275px;
     padding: 12px;
     background-color: gray;
     float: left;
@@ -130,11 +130,20 @@ Latest Deals
 }
 footer{
     height:258px;
-    background: black;
+    background:#005;
     width: 100%;
     text-align:center;
     color:white;
-}
-footer ul{
+    clear:both;
     
+}
+footer li{
+   display:inline-block;
+   margin-top:2%;
+
+}
+.footer-down{
+  
+    background: black;
+  
 }
