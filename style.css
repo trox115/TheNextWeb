@@ -1,0 +1,37 @@
+.upperbar{
+    background:black;
+    height: 30px;
+    color:white;
+}
+.bottombar{
+    background: white;
+    height: 60px;
+}
+
+.wrapper-create{
+    width: 95%;
+    margin-left:auto;
+    margin-right:auto;
+    height:400px;
+    background: beige;
+}
+.create-left{
+    width: 69%;
+    height:400px;
+    background: gray;
+    float:left;
+}
+
+.create-right{
+    width: 29%;
+    float:left;
+    height: 400px;
+}
+
+.picture{
+    width:100%;
+    background:black;
+    border:1px solid white;
+    height:200px;
+    margin-left:5px;
+}
