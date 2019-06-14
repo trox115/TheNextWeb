@@ -61,3 +61,26 @@
     float: left;
 
 }
+
+/*
+Funding
+
+*/
+.funding{
+    clear:both;
+    width: 80%;
+    margin-left:auto;
+    margin-right: auto;
+    background: lightblue;
+    height:400px;
+}
+.funding-box{
+    height:291px;
+    width: 23%;
+    background: gray;
+    float:left;
+    border:10px solid white;
+}
+.eightboxes{
+clear:both;
+}
