@@ -40,23 +40,41 @@ header{
     color: white;
 }
 .middlebar{
+    position: relative;
     background: white;
     width: 100%;
     height: 48px;
 }
 
-.middlebar u{
+.middlebar ul{
     margin-top: 0;
 }
 .middlebar ul li{
+    position: relative;
+    top: 15px;
     display: inline;
     font-size: 16px;
     font-family: "ARS Marquette", "Helvetica Neue";
 
 }
 .middlebar ul li a{ 
+    
     color: #555;
-    padding: 18px 12px 0;
+    padding: 5px 12px 0;
+    
+}
+
+.middlebar div#search{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 4%;
+    height: 48px;
+    text-align: center;
+    border-left: 1px solid gray;
+}
+.middlebar div#search i{
+    
 }
 
 .bottombar{
@@ -64,6 +82,7 @@ header{
     width: 100%;
     height: 30px;
     line-height: 30px;
+    padding-left: 4%;
     vertical-align: middle;
 }
 
@@ -81,38 +100,18 @@ header{
 .create-left{
     width: 69%;
     height:400px;
-    background-image: url("");
+    background: #ff0000;
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/06/infiity-796x401.jpg"),linear-gradient(to bottom right, #ff0000,black);
     float:left;
-}
-
-.create-right{
-    width: 29%;
-    float:left;
-    height: 400px;
-}
-
-.wrapper-create .create-left{
-    background-color: red;
-    /*background-image: url("https://thenextweb.com/hardfork/2019/06/17/facebook-libra-cryptocurrency-bitcoin-white-paper/");
-   */ background-size: contain;
-    
-}
-.wrapper-create .create-right #photo-up{
-    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/06/robot1200-796x417.png");
     background-size: contain;
-    
-}
-.wrapper-create .create-right #photo-down{
-    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/06/robot1200-796x417.png");
-    background-size: contain;
-    
 }
 .wrapper-create .create-left #logo{
     position: relative;
     top: 30px;
     width: 100%;
     height: 100px;
-    background-color: green;
+    background-image: url("img/tnw-w.svg");
+    background-repeat: no-repeat;
 }
 .wrapper-create .create-left #insights{
     position: relative;
@@ -155,7 +154,21 @@ header{
 }
 /*  two photos on the right*/
 
+.create-right{
+    width: 29%;
+    float:left;
+    height: 400px;
+}
 
+.wrapper-create .create-right #photo-up{
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/06/robot1200-796x417.png");
+    background-size: contain;
+    
+}
+.wrapper-create .create-right #photo-down{
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/06/Mario-Battle-Royale-Featured-796x417.jpg");
+    background-size: contain;
+}
 .wrapper-create .create-right .picture a{
     position: relative;
     left: 10px;
@@ -173,7 +186,7 @@ header{
 .wrapper-create .create-right .picture div a{
     font-size: 20px;
     font-family: Avalon, sans-serif;
-    color: black;
+    color: white;
 }
 .wrapper-create .create-right .picture ul li{
     position: relative;
