@@ -63,15 +63,20 @@
     height:100px;
   display:inline-block;
   width: 100%;
-   background: linear-gradient(#f42 0, #f42 50%, red 51%, red 100%);
+   background: linear-gradient(#f42 0, #f42 50%, rgba(255,68,34,.08) 51%, rgba(255,68,34,.08) 100%);
    font-size: 16px;
 }
 
 .headerbox p{
-    width: 20%;
+    width: 60%;
     float:left;
     color:white;
+    margin-left:20px;
     
+}
+.tags{
+    background: white;
+    border-bottom: 1px solid orangered;
 }
 
 .headerbox img{
@@ -153,7 +158,7 @@ Funding
 .funding-box{
     height:291px;
     width: 23%;
-    background: gray;
+    background:white;
     float:left;
     border:10px solid white;
 }
