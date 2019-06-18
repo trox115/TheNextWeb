@@ -29,30 +29,80 @@ body:after {
         background-color: hsla(90,60%,40%,0.7);
     }
 }
-@media only screen and (min-width: 480px) {
+
+@media (max-width: 767px) and (min-width:320px) {
     body:after {
-        content: "480 to 768px";
+        content: "320 to 767px";
         background-color: hsla(180,60%,40%,0.7);
+ 
     }
+    .logo-up{
+        position: relative;
+        z-index: 2;
+        float:left;
+        width: 106px;
+        height: 48px;
+        background-color: #ff4422;
+        
+    }
+    .logo-up a img{
+            position:absolute;
+            top:35px;
+            width: 66px;
+            height: 16px;
+    }
+    header .logo-up a{
+        display: block;
+        width: 66px;
+        height: 8px;
+        padding: 16px 20px;
+    }
+
+
 }
  /*==========================================================
 
           Small desktop, vertical tablet and medium size laptop
                         768 to 1023px
     =============================================================*/
-@media only screen and (min-width: 768px) {
+@media (max-width: 1023px) and (min-width:768px) {
     body:after {
         content: "768 to 1023px";
         background-color: hsla(270,60%,40%,0.7);
     }    
     header{
+        position: relative;
         margin: 0 0 2px 0;
        
     
     }
+    .logo-up{
+        position: relative;
+        z-index: 2;
+        float:left;
+        width: 106px;
+        height: 78px;
+        background-color: #ff4422;
+        
+        }
+    header .logo-up a{
+        display: block;
+        width: 66px;
+        height: 48px;
+        padding: 16px 20px;
+    }
+    .logo-up a img{
+        position:absolute;
+        top:35px;
+        width: 66px;
+        height: 16px;
+    }
     .upperbar{
+        position: relative;
+        top: 0;
+        left: 106px;
         background:black;
-        width: 100%;
+        width: 94%;
         height: 30px;
         margin: 0;
         padding: 0;
@@ -285,7 +335,7 @@ body:after {
 
 /*==========================================================
 
-                     Large Screen   2014 and up
+                     Large Screen   1024 and up
 =============================================================*/
 @media only screen and (min-width: 1024px) {
     body:after {
@@ -294,17 +344,23 @@ body:after {
     }
 
     
-
-
+html{
+    content: "1024 and up";
+}
 
 /*================================================
                 nav bar
 ==================================================*/
 
-header{
+header:after{
     margin: 0 0 2px 0;
+    width: 100%;
+    content: "1024 and up";
    
 
+}
+.logo-up{
+    display: none;
 }
 .upperbar{
     background:black;
@@ -315,6 +371,7 @@ header{
     color:white;
    
 }
+
 .upperbar ul{
     margin: 0;
     padding-top: 5px;
