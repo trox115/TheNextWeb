@@ -513,24 +513,35 @@ background: rgba(255,68,34,.15);
 
 .latest-deals{
     width: 100%;
-    height: 670px;
+    
     margin-left: auto;
     margin-right: auto;
     
     
 }
 .latest-deals-picture{
-    width: 30%;
-    height: 314px;
+   width: 100%;
     padding: 12px;
+   margin-bottom:3%;
+    float: left;
+    line-height: 1px;
+    
+}
+
+
+.latest-deals-picture p{
+   margin-left:1%;
    margin-bottom:3%;
     float: left;
     
 }
 
+
 del{
     text-decoration:  line-through;
     font-size:14px;
+    margin-left:1%;
+    color:gray;
 }
 
 ins{
@@ -538,8 +549,15 @@ ins{
     font-size:17px;
 }
 .latest-deals-picture img{
-width: 100%;
+
+width: 75px;
+height: 75px;
 }
+
+.latest-deals-picture picture{
+    float:left;
+     
+ }
 
 .latest-deals-picture a{
     color:black;
