@@ -9,6 +9,7 @@ body{
     
     margin: 0;
     margin-top:-16px;
+    
 }
 
 .logo-up{
@@ -210,7 +211,7 @@ color: #fff;
 
 .latest h1{
     font-family: Avalon, sans-serif;
-    font-size: 28px;
+    font-size: 24px;
     color: #ff4422;
     margin-left:1%;
     
@@ -266,6 +267,15 @@ color: #fff;
     margin-right: auto;
    
 }
+.funding .title h1{
+    color: #ff4422;
+    font-size: 24px;
+    padding: 0 10px;
+}
+.funding .title h1:hover{
+    color: black;
+}
+
 .funding-box{
     height:291px;
     width: 96%;
@@ -276,7 +286,12 @@ color: #fff;
 }
 
 .funding .subtitle ul li{
-    display: inline;
+    color: #ff4422;
+    height: 30px;
+    font-size: 13px;
+}
+.funding .subtitle ul li:hover{
+    color: black;
 }
 .funding-box:last-child{
    display:none;
@@ -354,7 +369,7 @@ color: #fff;
     position: relative;
     width: 100%;
     max-height: 2800px;
-    min-height: 2200px;
+    min-height: 4789px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
@@ -516,7 +531,8 @@ background: rgba(255,68,34,.15);
     
     margin-left: auto;
     margin-right: auto;
-    
+    max-height: 1148px;
+    min-height: 1037px;
     
 }
 .latest-deals-picture{
@@ -524,7 +540,7 @@ background: rgba(255,68,34,.15);
     padding: 12px;
    margin-bottom:3%;
     float: left;
-    line-height: 1px;
+   
     
 }
 
@@ -532,7 +548,9 @@ background: rgba(255,68,34,.15);
 .latest-deals-picture p{
    margin-left:1%;
    margin-bottom:3%;
-    float: left;
+   line-height: 1;
+position: relative;
+top: -13px;
     
 }
 
@@ -542,10 +560,13 @@ del{
     font-size:14px;
     margin-left:1%;
     color:gray;
+    position: relative;
+top: -21px;
 }
 
 ins{
-   
+    position: relative;
+    top: -21px;
     font-size:17px;
 }
 .latest-deals-picture img{
@@ -565,16 +586,32 @@ height: 75px;
     margin-top:-10px !important;
     }
 
+    .title2{
+        width: 50%;
+        text-align: left;
+        float:left;
+        vertical-align: top;
+        font-weight: 900;
+        color:#f42;
+        font-size:5vw;
+    }
+    .subtitle2{
+        width: 50%;
+       text-align:right;
+        float:right;
+        font-weight: 300;
+        font-size:3vw;
+    }
 
     footer{
-       
-       
-        width: 100%;
-        height: 284px;
-        text-align:center;
-        background-color: rgba(255, 0, 0, .2);
-        color:white;
-        clear:both;
+       position: relative;
+    width: 100%;
+    height: 284px;
+    text-align:center;
+    background-color: #131313;
+    color:white;
+    clear:both;
+    
         
     }
     footer li{
@@ -610,12 +647,36 @@ height: 75px;
        cursor: pointer;
      }
     
-    
+    .footer-up{
+        padding: 10px;
+    }
     .footer-down{
+        display: none;
+    }
+    .footer-down-small{
+        bottom: 0;
       line-height: 70px;
         background: black;
         margin-top:5%;
-        height:70px;
+        height:43px;
+        padding: 40px 0;
       vertical-align: bottom;
       font-size: 12px;
+    }
+    .footer-down-small span{
+        display: block;
+        width: 100%;
+        height: 19.5px;
+    }
+    .footer-down-small #logo{
+        width: 37px;
+        height: 9px;
+    }
+    .footer-down-small #letters{
+        width: 65px;
+        height: 9px;
+
+    }
+    .footer-down-small span b{
+        color: red;
     }
