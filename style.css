@@ -183,8 +183,8 @@ body:after {
     .wrapper-create{
         position: relative;
         width: 100%;
-        margin: 0 4px;
-        padding: 4px;
+        margin-left:auto;
+        margin-right:auto;
         height:400px;
         background: beige;
     }
@@ -204,6 +204,7 @@ body:after {
         height: 100px;
         background-image: url("img/tnw-w.svg");
         background-repeat: no-repeat;
+        display:none;
     }
     .wrapper-create .create-left #insights{
         position: relative;
@@ -297,13 +298,13 @@ body:after {
     text-align: left;
     float:left;
     vertical-align: top;
-    line-height:1px;
+    
     color:#f42;
 }
 .subtitle{
     width: 100%;
+    clear:both;
    
-    float:left;
 }
 
 .subtitle li{
@@ -335,7 +336,7 @@ body:after {
 */
 
 .latest{
-    width: 96%;
+    width: 100%;
     height: 620px;
     margin-left: auto;
     margin-right: auto;
@@ -347,6 +348,7 @@ body:after {
     font-family: Avalon, sans-serif;
     font-size: 28px;
     color: #ff4422;
+    margin-left:1%;
     
 }
 .latest .wrapper-latest-pic{
@@ -354,7 +356,7 @@ body:after {
 }
 
 .wrapper-latest-pic{
-    width: 22.9%;
+    width: 30.4%;
     height: 251px;
     padding: 12px;
     background-color: white;
@@ -485,7 +487,8 @@ body:after {
 .eightboxes{
     position: relative;
     width: 100%;
-    height: 2200px;
+    max-height: 2800px;
+    min-height: 2200px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
@@ -629,7 +632,7 @@ background: rgba(255,68,34,.15);
 .image-context{
     width: 84px;
     height: 100px;
-    float:left;
+    float:right;
     background: url(img/context1.jpg);
     background-size:cover;
 }   
@@ -654,7 +657,7 @@ background: rgba(255,68,34,.15);
     width: 30%;
     height: 314px;
     padding: 12px;
-   
+   margin-bottom:3%;
     float: left;
     
 }
