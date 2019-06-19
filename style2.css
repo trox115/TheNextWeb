@@ -564,3 +564,56 @@ height: 75px;
     text-decoration: none;
     margin-top:-10px !important;
     }
+
+
+    footer{
+       
+        background:#1a1a1a;
+        width: 100%;
+        text-align:center;
+        color:white;
+        clear:both;
+        
+    }
+    footer li{
+       display:inline-block;
+       margin-top:2%;
+       margin-right: 5px;
+      
+       
+      
+    }
+    
+    .footer-icons li{
+        display:inline-block;
+        margin-top:2%;
+        margin-right: 5px;
+        width: 40px;
+        height: 40px;
+        background: gray;
+        color:black;
+     border-radius: 50%;
+     line-height: 40px;
+     vertical-align: middle;
+     
+     }
+    
+     .footer-icons li:hover{
+        cursor:pointer;
+     
+     }
+    
+     .footer-icons li:hover{
+       background: darkgrey;
+       cursor: pointer;
+     }
+    
+    
+    .footer-down{
+      line-height: 70px;
+        background: black;
+        margin-top:5%;
+        height:70px;
+      vertical-align: bottom;
+      font-size: 12px;
+    }

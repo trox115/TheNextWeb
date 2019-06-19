@@ -30,6 +30,19 @@ body:after {
 ========================================= */
 @media (max-width: 767px) and (min-width:320px) {
     
+    header{
+        position: relative;
+        margin: 0 0 2px 0;
+       top:0;
+    
+    }
+    body{
+        
+        
+        margin: 0;
+        margin-top:-16px;
+    }
+    
     .logo-up{
         position: relative;
         z-index: 2;
@@ -55,12 +68,13 @@ body:after {
     .upperbar ul{ display: none;}
     .upperbar ul li{ display:none;}
     .middlebar ul li{display:none;}
-
+    
     .middlebar{
         position: relative;
         background: white;
         width: 100%;
         height: 48px;
+        line-height: 48px;
     }
     .middlebar div#search{
         position: absolute;
@@ -78,18 +92,17 @@ body:after {
     
         
     }
-
-    .nexttosearch i{
+    
+    .nexttosearch{
         position: absolute;
         top: 0;
         right: 0;
         width: 48px;
         height: 48px;
         text-align: center;
-        color:orangered !important;
-
+    
     }
-    .middlebar div.nexttosearch i{
+    .middlebar div#nexttosearch i{
         color: red;
         
     }
@@ -103,7 +116,7 @@ body:after {
         text-align: center;
         font-size: 13px;
     }
-
+    
     
     .wrapper-create{
         position: relative;
@@ -122,16 +135,16 @@ body:after {
     background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/06/infiity-796x401.jpg");
     float:left;
     background-size: cover;
-}
-.wrapper-create .create-left #red-gradient{
+    }
+    .wrapper-create .create-left #red-gradient{
     position: absolute;
     top: 0;
     width: 99%;
     height: 136px;
-}
-.wrapper-create .create-left #insights{
+    }
+    .wrapper-create .create-left #insights{
     position: relative;
-    top: 60px;
+    bottom: -25px;
     width: 100%;
     height: 20px;
     margin-top: 7px;
@@ -139,70 +152,503 @@ body:after {
     font-size: 14px;
     
     
-}
-.create-left #insights a{
+    }
+    .create-left #insights a{
     color: #fff;
-}
-.wrapper-create .create-left #crypto{
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 136px;
+    }
+    .wrapper-create .create-left #crypto{
     
+    width: 100%;
+    font-weight: 900;
     color: #fff;
-}
-/*  titles first photo*/
-.wrapper-create .create-left #crypto a{
-    top: 80px;
-    font-size: 17px;
+    }
+    /*  titles first photo*/
+    .wrapper-create .create-left #crypto a{
+        position: relative;
+        bottom: -20px;
+    font-size: 20px;
     font-family: Avalon, sans-serif;
     color: #fff;
-
-}
-.wrapper-create .create-left ul li{
-    position: relative;
-    top: 0px;
+    
+    }
+    .wrapper-create .create-left ul li{
+    
     display: inline;
-    font-size: 7px;
+    font-size: 11px;
     color: #fff;
-}
-.wrapper-create .create-left ul li a{
+    }
+    .wrapper-create .create-left ul li a{
         
     color: white;
-}
-.create-right{
+    }
+    .create-right{
     width: 99%;
     
     height: 272px;
-}
-/*.wrapper-create .create-left ul li a{
+    }
+    
+    .wrapper-create .create-right #photo-up{
+        background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/06/robot1200-796x417.png");
+        background-size: cover;
         
+        
+    }
+    .wrapper-create .create-right #photo-down{
+        background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/06/Mario-Battle-Royale-Featured-796x417.jpg");
+        background-size: cover;
+    }
+    
+    .wrapper-create .create-right .picture a{
+        position: relative;
+       
+    font-size: 20px;
+    font-family: Avalon, sans-serif;
+    color: #fff;
+    font-weight: 900;
+    
+    }
+    .wrapper-create .create-right .picture .ais{
+        position: relative;
+        left: 10px;
+        width: 100%;
+        height: 63px;
+    
+        margin-top: 10px;
+    }
+    .wrapper-create .create-right .picture .ais a{
+        font-size: 20px;
+        font-family: Avalon, sans-serif;
         color: white;
     }
-    
-    .create-right{
-        width: 29%;
-        float:left;
-        height: 400px;
+    .wrapper-create .create-right .picture ul li{
+        display: inline;
+    font-size: 11px;
+    color: #fff;
     }
-
-
-.wrapper-create .create-right #photo-up{
-    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/06/robot1200-796x417.png");
-    background-size: cover;
+    .wrapper-create .create-right ul li a{
+        display: inline;
+    font-size: 11px !important;
+    color: #fff;
+    }
+    
+    .latest{
+        width: 100%;
+        
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+        
+    }
+    
+    .latest h1{
+        font-family: Avalon, sans-serif;
+        font-size: 28px;
+        color: #ff4422;
+        margin-left:1%;
+        
+    }
+    .wrapper-latest-pic{
+        width: 100%;
+        min-height: 75px;
+        padding: 12px;
+        background-color: white;
+        text-align: left;
+    
+    }
+    
+    .wrapper-latest-pic picture img{
+        width: 75px;
+        height: 75px;
+        float:left;
+        margin-right: 1%;
+    }
+    
+    .wrapper-latest-pic picture h4{
+        margin: 0;
+        color: black;
+        text-decoration: none;
+        font-size:14px;
+    }
+    .wrapper-latest-pic picture h4 a{
+        text-decoration: none;
+        color: black;
+    }
+    .wrapper-latest-pic ul{
+        padding-left: 0;
+        margin: 0;
+        
+        
+    }
+    .wrapper-latest-pic li{
+        display: inline;
+        color: #AAA;
+        font-size:11px;
+    }
+    .wrapper-latest-pic li a{
+        color: #AAA;
+        text-decoration: none;
+    }
     
     
-}
-.wrapper-create .create-right #photo-down{
-    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/06/Mario-Battle-Royale-Featured-796x417.jpg");
-    background-size: cover;
-}
-
-
-
-
-.wrapper-create .create-left ul li a{
-    */
+    
+    .funding{
+        clear:both;
+        width: 100%;
+        margin-left:auto;
+        margin-right: auto;
+       
+    }
+    .funding-box{
+        height:291px;
+        width: 96%;
+        background:rgba(255,68,34,.05);
+        
+        border:10px solid white;
+       
+    }
+    
+    .funding .subtitle ul li{
+        display: inline;
+    }
+    .funding-box:last-child{
+       display:none;
+       
+    }
+    
+    .funding-box p{
+        font-size: 13px;
+        line-height: 20px;
+        color:darkslategray;
+    }
+    .funding-box a{
+        font-size: 13px;
+        line-height: 20px;
+        color:gray;
+    }
+    
+    .headerbox{
+        background:#f42;
+        
+      display:inline-block;
+      width: 100%;
+       background: linear-gradient(#f42 0, #f42 50%, rgba(255,68,34,.08) 51%, rgba(255,68,34,.08) 100%);
+       font-size: 16px;
+       line-height: 1px;
+    }
+    
+    .imagebox{
+        height:100px;
+        width: 60px;
+        margin-left:3%;
+        margin-top:4%;
+        vertical-align: middle;
+        float:left; 
+    }
+    
+    .headerbox p{
+      
+        
+        color:black;
+        
+        vertical-align: top;
+       
+    }
+    .headerbox h3{
+        color:white;
+        margin-bottom: 52px;
+        margin-left: 89px;
+        font-size:18px;
+    }
+    
+    
+    
+    .tags{
+        
+        border-bottom: 1px solid orangered;
+        text-align: left;
+    }
+    
+    .headerbox img{
+        height:60px;
+        width: 60px;
+        margin-left:3%;
+        margin-top:4%;
+        vertical-align: middle;
+        float:left;
+    }
+    .bot-text{
+        margin-left:100px;
+    }
+    
+    
+    
+    .eightboxes{
+        position: relative;
+        width: 100%;
+        max-height: 2800px;
+        min-height: 2200px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        
+    
+    }
+    
+    .apps{
+        width: 96%;
+      
+        float: left;
+        padding: 12px;
+       
+        
+    }
+    .apps h2{
+        color:orangered;
+       
+        
+    }
+    
+    .image-description{
+    width:100%;
+    height:267px;
+    background: url(img/image1.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    color:white;
+    font-size: 12px;
+    }
+    .image-description2{
+        width:100%;
+        height:267px;
+        background: url(img/image2.jpg);
+        background-size:cover;
+        background-repeat:no-repeat;
+        color:white;
+        font-size: 12px;
+        }
+    
+        .image-description3{
+            width:100%;
+            height:267px;
+            background: url(img/image3.jpeg);
+            background-size:cover;
+            background-repeat:no-repeat;
+            color:white;
+            font-size: 12px;
+            }
+            .image-description4{
+                width:100%;
+                height:267px;
+                background: url(img/image4.jpg);
+                background-size:cover;
+                background-repeat:no-repeat;
+                color:white;
+                font-size: 12px;
+                }
+                .image-description5{
+                    width:100%;
+                    height:267px;
+                    background: url(img/image5.jpeg);
+                    background-size:cover;
+                    background-repeat:no-repeat;
+                    color:white;
+                    font-size: 12px;
+                    }
+                    .image-description6{
+                        width:100%;
+                        height:267px;
+                        background: url(img/image6.jpeg);
+                        background-size:cover;
+                        background-repeat:no-repeat;
+                        color:white;
+                        font-size: 12px;
+                        }
+                        .image-description7{
+                            width:100%;
+                            height:267px;
+                            background: url(img/image7.jpg);
+                            background-size:cover;
+                            background-repeat:no-repeat;
+                            color:white;
+                            font-size: 12px;
+                            }
+                            .image-description8{
+                                width:100%;
+                                height:267px;
+                                background: url(img/image8.jpg);
+                                background-size:cover;
+                                background-repeat:no-repeat;
+                                color:white;
+                                font-size: 12px;
+                                }
+    .text-img {
+        position:relative;
+        top:150px;
+       
+       
+    }
+    
+    .text-img h2{
+        color:white;
+       
+       
+    }
+    .topic-list{
+        font-size:15px;
+        color:gray;
+        float:left;
+        line-height: 1.5em;
+    }
+    .topic-list li{
+    margin-left: -32px;
+    border-bottom: 1px solid #EDEDED;
+    }
+    .topic-list ul{
+        margin-left: -10px;
+        }
+    
+    .topic-list ul li:before {
+        /* Unicode bullet symbol */
+        content: '\2022 ';
+        /* Bullet color */
+        color: orangered;
+        padding-right: 0.5em;
+        
+    }
+    
+    
+    .background-gradient{
+        height: 100%;
+        width: 100%;
+        background: linear-gradient(rgba(0,0,0,.4) 0, rgba(0, 0, 0, .5) 50%, rgba(0,0,0,.7) 51%, rgba(0,0,0,.8) 100%);
+    }
+    
+    .contest{
+    height:100px;
+    background: rgba(255,68,34,.15);
+    }
+    .image-context{
+        width: 84px;
+        height: 100px;
+        float:right;
+        background: url(img/context1.jpg);
+        background-size:cover;
+    }   
+    .contest-text{
+        width: 75%;
+        float:left;
+    }
+    .contest-text h2{
+        color:orangered;
+        font-size: 15px;
+    }
+    
+    .latest-deals{
+        width: 100%;
+        
+        margin-left: auto;
+        margin-right: auto;
+        
+        
+    }
+    .latest-deals-picture{
+       width: 100%;
+        padding: 12px;
+       margin-bottom:3%;
+        float: left;
+        line-height: 1px;
+        
+    }
+    
+    
+    .latest-deals-picture p{
+       margin-left:1%;
+       margin-bottom:3%;
+        float: left;
+        
+    }
+    
+    
+    del{
+        text-decoration:  line-through;
+        font-size:14px;
+        margin-left:1%;
+        color:gray;
+    }
+    
+    ins{
+       
+        font-size:17px;
+    }
+    .latest-deals-picture img{
+    
+    width: 75px;
+    height: 75px;
+    }
+    
+    .latest-deals-picture picture{
+        float:left;
+         
+     }
+    
+    .latest-deals-picture a{
+        color:black;
+        text-decoration: none;
+        margin-top:-10px !important;
+        }
+    
+    
+        footer{
+           
+            background:#1a1a1a;
+            width: 100%;
+            text-align:center;
+            color:white;
+            clear:both;
+            
+        }
+        footer li{
+           display:inline-block;
+           margin-top:2%;
+           margin-right: 5px;
+          
+           
+          
+        }
+        
+        .footer-icons li{
+            display:inline-block;
+            margin-top:2%;
+            margin-right: 5px;
+            width: 40px;
+            height: 40px;
+            background: gray;
+            color:black;
+         border-radius: 50%;
+         line-height: 40px;
+         vertical-align: middle;
+         
+         }
+        
+         .footer-icons li:hover{
+            cursor:pointer;
+         
+         }
+        
+         .footer-icons li:hover{
+           background: darkgrey;
+           cursor: pointer;
+         }
+        
+        
+        .footer-down{
+          line-height: 70px;
+            background: black;
+            margin-top:5%;
+            height:70px;
+          vertical-align: bottom;
+          font-size: 12px;
+        }
 }
  /*==========================================================
 
