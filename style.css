@@ -23,14 +23,9 @@ body:after {
     color: #fff;
 }
 
-@media only screen and (min-width: 320px) {
-    body:after {
-        content: "320 to 480px";
-        background-color: hsla(90,60%,40%,0.7);
-    }
-}
+
 /* ======================================
-         Screen zise   
+         Screen zise   320 to 767
  
 ========================================= */
 @media (max-width: 767px) and (min-width:320px) {
@@ -46,7 +41,7 @@ body:after {
     }
     .logo-up a img{
             position:absolute;
-            top:35px;
+            top:20px;
             width: 66px;
             height: 16px;
     }
@@ -56,8 +51,157 @@ body:after {
         height: 8px;
         padding: 16px 20px;
     }
-    
+    .upperbar{ display: none;}
+    .upperbar ul{ display: none;}
+    .upperbar ul li{ display:none;}
+    .middlebar ul li{display:none;}
 
+    .middlebar{
+        position: relative;
+        background: white;
+        width: 100%;
+        height: 48px;
+    }
+    .middlebar div#search{
+        position: absolute;
+        top: 0;
+        right: 48px;
+        width: 48px;
+        height: 48px;
+        text-align: center;
+        border-left: 1px solid #ECECEC;
+        border-right: 1px solid #ECECEC;
+    }
+    .middlebar div#search i{
+        margin-top: 18px;
+        color: #7F7F7F;
+    
+        
+    }
+
+    .nexttosearch{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 48px;
+        height: 48px;
+        text-align: center;
+
+    }
+    .middlebar div#nexttosearch i{
+        color: red;
+        
+    }
+    .bottombar{
+        background:#ffdd33;
+        width: 100%;
+        height: 30px;
+        line-height: 30px;
+        padding-left: 4%;
+        vertical-align: middle;
+        text-align: center;
+        font-size: 13px;
+    }
+
+    
+    .wrapper-create{
+        position: relative;
+        width: 100%;
+        margin-left:auto;
+        margin-right:auto;
+        height:440px;
+        background: beige;
+    }
+    .create-left{
+    z-index:-1;
+    width: 99%;
+    height:136px;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/06/infiity-796x401.jpg");
+    float:left;
+    background-size: cover;
+}
+.wrapper-create .create-left #red-gradient{
+    position: absolute;
+    top: 0;
+    width: 99%;
+    height: 136px;
+}
+.wrapper-create .create-left #insights{
+    position: relative;
+    top: 60px;
+    width: 100%;
+    height: 20px;
+    margin-top: 7px;
+    
+    font-size: 14px;
+    
+    
+}
+.create-left #insights a{
+    color: #fff;
+}
+.wrapper-create .create-left #crypto{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 136px;
+    
+    color: #fff;
+}
+/*  titles first photo*/
+.wrapper-create .create-left #crypto a{
+    top: 80px;
+    font-size: 17px;
+    font-family: Avalon, sans-serif;
+    color: #fff;
+
+}
+.wrapper-create .create-left ul li{
+    position: relative;
+    top: 0px;
+    display: inline;
+    font-size: 7px;
+    color: #fff;
+}
+.wrapper-create .create-left ul li a{
+        
+    color: white;
+}
+.create-right{
+    width: 99%;
+    
+    height: 272px;
+}
+/*.wrapper-create .create-left ul li a{
+        
+        color: white;
+    }
+    
+    .create-right{
+        width: 29%;
+        float:left;
+        height: 400px;
+    }
+
+
+.wrapper-create .create-right #photo-up{
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/06/robot1200-796x417.png");
+    background-size: cover;
+    
+    
+}
+.wrapper-create .create-right #photo-down{
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/06/Mario-Battle-Royale-Featured-796x417.jpg");
+    background-size: cover;
+}
+
+
+
+
+.wrapper-create .create-left ul li a{
+    */
 }
  /*==========================================================
 
@@ -74,6 +218,9 @@ body:after {
         margin: 0 0 2px 0;
        
     
+    }
+    body{
+        margin: 0;
     }
     .logo-up{
         position: relative;
@@ -414,6 +561,9 @@ body:after {
    
 }
 
+.funding .subtitle ul li{
+    display: inline;
+}
 .funding-box:last-child{
    display:none;
    
