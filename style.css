@@ -148,7 +148,6 @@ body:after {
     margin-left: 0.5%;
     margin-right: 0.5%;
     background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/06/infiity-796x401.jpg");
-    float:left;
     background-size: cover;
     }
     .wrapper-create .create-left #red-gradient{
@@ -198,21 +197,40 @@ body:after {
     }
     .create-right{
     width: 99%;
-    
+    clear:both;
     height: 272px;
     }
     
     .wrapper-create .create-right #photo-up{
         background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/06/robot1200-796x417.png");
         background-size: cover;
-        
+        width: 99%;
+        height: 136px;
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+        margin-top:1%;
         
     }
     .wrapper-create .create-right #photo-down{
         background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/06/Mario-Battle-Royale-Featured-796x417.jpg");
         background-size: cover;
+        width: 99%;
+height: 136px;
+margin-left: 0.5%;
+margin-right: 0.5%;
+margin-top:1%;
     }
     
+    #tech{
+        position: relative;
+bottom: -25px;
+width: 100%;
+height: 20px;
+margin-top: 7px;
+font-size: 15px;
+font-weight:300;
+color:#fff;
+    }
     .wrapper-create .create-right .picture a{
         position: relative;
        
@@ -231,15 +249,26 @@ body:after {
         margin-top: 10px;
     }
     .wrapper-create .create-right .picture .ais a{
-        font-size: 20px;
-        font-family: Avalon, sans-serif;
-        color: white;
+        position: relative;
+    bottom: -20px;
+    font-size: 20px;
+    
+    color: #fff;
+
+
     }
     .wrapper-create .create-right .picture ul li{
         display: inline;
-    font-size: 11px;
-    color: #fff;
+
+font-size: 11px;
+
+color: #fff;
     }
+
+.picture ul{
+    margin-top:5px;
+}
+
     .wrapper-create .create-right ul li a{
         display: inline;
     font-size: 11px !important;
