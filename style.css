@@ -53,6 +53,20 @@ body:after {
         background-color: #ff4422;
         
     }
+    .tnwx-black{
+        position: absolute;
+        bottom: 0;
+        z-index: 2;
+        float:left;
+        width: 106px;
+        height: 30px;
+        background-color: black;
+        color: white;
+        text-align: center;
+        font-size: 11.5px;
+        vertical-align: middle;
+        line-height: 30px;
+    }
     .logo-up a img{
             position:absolute;
             top:20px;
@@ -125,7 +139,7 @@ body:after {
         margin-left:auto;
         margin-right:auto;
         height:440px;
-        background: beige;
+        
     }
     .create-left{
     z-index:-1;
@@ -249,7 +263,7 @@ body:after {
         
     }
     .wrapper-latest-pic{
-        width: 100%;
+        width: 93%;
         min-height: 75px;
         padding: 12px;
         background-color: white;
@@ -682,18 +696,16 @@ body:after {
         .footer-up{
             padding: 10px;
         }
-        .footer-down{
-            display: none;
-        }
+        
         .footer-down-small{
             bottom: 0;
           line-height: 70px;
             background: black;
-            margin-top:5%;
-            height:43px;
+            height:53px;
             padding: 40px 0;
-          vertical-align: bottom;
+          vertical-align: middle;
           font-size: 12px;
+          
         }
         .footer-down-small span{
             display: block;
@@ -740,7 +752,12 @@ body:after {
         height: 78px;
         background-color: #ff4422;
         
-        }
+    }
+    .tnwx-black{display:none;}
+    .nexttosearch{
+        display: none;
+    }
+    
     header .logo-up a{
         display: block;
         width: 66px;
@@ -843,7 +860,7 @@ body:after {
         margin-left:auto;
         margin-right:auto;
         height:400px;
-        background: beige;
+        
     }
     .create-left{
         z-index:-1;
@@ -1405,16 +1422,32 @@ width: 100%;
        cursor: pointer;
      }
     
-    
-    .footer-down{
+    .footer-down-small{
+        bottom: 0;
       line-height: 70px;
         background: black;
-        margin-top:5%;
-        height:70px;
-      vertical-align: bottom;
-      font-size: 13px;
+        height:53px;
+        padding: 40px 0;
+      vertical-align: middle;
+      font-size: 12px;
+      
     }
-    .footer-down-small{display: none;}
+    .footer-down-small span{
+        display: inline;
+        
+    }
+    .footer-down-small #logo{
+        width: 37px;
+        height: 9px;
+    }
+    .footer-down-small #letters{
+        width: 65px;
+        height: 9px;
+
+    }
+    .footer-down-small span b{
+        color: red;
+    }
 
     
 }
@@ -1448,6 +1481,7 @@ header:after{
 .logo-up{
     display: none;
 }
+.tnwx-black{display:none;}
 .upperbar{
     background:black;
     width: 100%;
@@ -1542,7 +1576,7 @@ header:after{
     margin-left:auto;
     margin-right:auto;
     height:400px;
-    background: beige;
+    
 }
 .create-left{
     z-index:-1;
@@ -1586,7 +1620,7 @@ header:after{
     width: 100%;
     height: 122px;
    
-    color: #fff;
+    
 }
 .wrapper-create .create-left #crypto a{
     font-size: 36px;
@@ -1612,12 +1646,7 @@ header:after{
     float:left;
     height: 400px;
 }
-/*
-.gradient-right{
-  
-    background-image: linear-gradient(to bottom, rgba(3,3,3,0.1)50%,rgb(3, 3, 3,0.5)100%);
-}
-*/
+
 .wrapper-create .create-right #photo-up{
     background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/06/robot1200-796x417.png");
     background-size: contain;
@@ -2084,15 +2113,6 @@ footer li{
    cursor: pointer;
  }
 
-
-.footer-down{
-  line-height: 70px;
-    background: black;
-    margin-top:5%;
-    height:70px;
-  vertical-align: bottom;
-}
-
 .title2 {
     width: 50%;
     text-align: left;
@@ -2114,5 +2134,30 @@ footer li{
 }
 
 
-.footer-down-small{display: none;}
+.footer-down-small{
+    bottom: 0;
+  line-height: 70px;
+    background: black;
+    height:53px;
+    padding: 40px 0;
+  vertical-align: middle;
+  font-size: 12px;
+  
+}
+.footer-down-small span{
+    display: inline;
+    
+}
+.footer-down-small #logo{
+    width: 37px;
+    height: 9px;
+}
+.footer-down-small #letters{
+    width: 65px;
+    height: 9px;
+
+}
+.footer-down-small span b{
+    color: red;
+}
 }
