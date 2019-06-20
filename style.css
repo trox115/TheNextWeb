@@ -1013,7 +1013,7 @@ body:after {
 }
 
 .wrapper-latest-pic{
-    width: 30.4%;
+    width: 29.4%;
     height: 251px;
     padding: 12px;
     background-color: white;
@@ -1310,8 +1310,28 @@ background: rgba(255,68,34,.15);
     height: 670px;
     margin-left: auto;
     margin-right: auto;
+    clear:both;
     
-    
+}
+
+.title2 {
+    width: 50%;
+    text-align: left;
+    float: left;
+    vertical-align: top;
+    font-weight: 900;
+    color: #f42;
+   height:50px;
+   font-size: 2vw;
+}
+
+.subtitle2 {
+    width: 50%;
+    text-align: right;
+    float: right;
+    font-weight: 300;
+    height:50px;
+    font-size: 2vw;
 }
 .latest-deals-picture{
     width: 30%;
@@ -1720,7 +1740,7 @@ header:after{
 */
 
 .latest{
-    width: 88%;
+    width: 98%;
     height: 620px;
     margin-left: auto;
     margin-right: auto;
@@ -1739,7 +1759,7 @@ header:after{
 }
 
 .wrapper-latest-pic{
-    width: 22.9%;
+    width: 21.9%;
     height: 251px;
     padding: 12px;
     background-color: white;
@@ -1785,7 +1805,7 @@ Funding
 */
 .funding{
     clear:both;
-    width: 88%;
+    width: 98%;
     margin-left:auto;
     margin-right: auto;
     height:400px;
@@ -1823,7 +1843,7 @@ clear:both;
 
 .eightboxes{
     position: relative;
-    width: 88%;
+    width: 100%;
     height: 2200px;
     margin-left: auto;
     margin-right: auto;
@@ -1833,7 +1853,7 @@ clear:both;
 }
 
 .apps{
-    width: 31.2%;
+    width: 30.2%;
     height: 704px;
     float: left;
     padding: 12px;
@@ -1966,9 +1986,9 @@ height:100px;
 background: rgba(255,68,34,.15);
 }
 .image-context{
-    width: 87px;
+    width: 25%;
     height: 100px;
-    float:left;
+    float:right;
     background: url(img/context1.jpg);
     background-size:cover;
 }   
@@ -1978,7 +1998,7 @@ background: rgba(255,68,34,.15);
 }
 .contest-text h2{
     color:orangered;
-    font-size: 15px;
+    font-size: 14px;
 }
 
     /*
@@ -1988,7 +2008,7 @@ Latest Deals
 
 
 .latest-deals{
-    width: 88%;
+    width: 98%;
     height: 670px;
     margin-left: auto;
     margin-right: auto;
@@ -1996,7 +2016,7 @@ Latest Deals
     
 }
 .latest-deals-picture{
-    width: 22.9%;
+    width: 21.9%;
     height: 314px;
     padding: 12px;
    
@@ -2014,7 +2034,7 @@ ins{
     font-size:17px;
 }
 .latest-deals-picture img{
-width: 270px;
+width: 100%;
 }
 
 .latest-deals-picture a{
@@ -2072,5 +2092,27 @@ footer li{
     height:70px;
   vertical-align: bottom;
 }
+
+.title2 {
+    width: 50%;
+    text-align: left;
+    float: left;
+    vertical-align: top;
+    font-weight: 900;
+    color: #f42;
+   height:50px;
+   font-size: 2vw;
+}
+
+.subtitle2 {
+    width: 50%;
+    text-align: right;
+    float: right;
+    font-weight: 300;
+    height:50px;
+    font-size: 2vw;
+}
+
+
 .footer-down-small{display: none;}
 }
