@@ -44,12 +44,30 @@ body:after {
         
     }
     
+
+    header:after{
+        margin: 0 0 2px 0;
+        width: 100%;
+        content: "1024 and up";
+       
+    
+    }
+    nav{
+        position:fixed;
+        width: 100%;
+        z-index: 99;
+    }
+    main{
+        margin-top:77px;
+    }
+
+    
     .logo-up{
         position: relative;
         z-index: 2;
         float:left;
         width: 106px;
-        height: 48px;
+        height: 64px;
         background-color: #ff4422;
         
     }
@@ -773,6 +791,23 @@ color: #fff;
     body{
         margin: 0;
     }
+    
+header:after{
+    margin: 0 0 2px 0;
+    width: 100%;
+    content: "1024 and up";
+   
+
+}
+nav{
+    position:fixed;
+    width: 100%;
+    z-index: 99;
+}
+main{
+    margin-top:89px;
+}
+
     .logo-up{
         position: relative;
         z-index: 2;
@@ -1506,6 +1541,14 @@ header:after{
     content: "1024 and up";
    
 
+}
+nav{
+    position:fixed;
+    width: 100%;
+    z-index: 99;
+}
+main{
+    margin-top:89px;
 }
 .logo-up{
     display: none;
