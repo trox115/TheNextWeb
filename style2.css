@@ -1,0 +1,682 @@
+header{
+    position: relative;
+    margin: 0 0 2px 0;
+   top:0;
+
+}
+body{
+    
+    
+    margin: 0;
+    margin-top:-16px;
+    
+}
+
+.logo-up{
+    position: relative;
+    z-index: 2;
+    float:left;
+    width: 106px;
+    height: 48px;
+    background-color: #ff4422;
+    
+}
+.logo-up a img{
+        position:absolute;
+        top:20px;
+        width: 66px;
+        height: 16px;
+}
+header .logo-up a{
+    display: block;
+    width: 66px;
+    height: 8px;
+    padding: 16px 20px;
+}
+.upperbar{ display: none;}
+.upperbar ul{ display: none;}
+.upperbar ul li{ display:none;}
+.middlebar ul li{display:none;}
+
+.middlebar{
+    position: relative;
+    background: white;
+    width: 100%;
+    height: 48px;
+    line-height: 48px;
+}
+.middlebar div#search{
+    position: absolute;
+    top: 0;
+    right: 48px;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    border-left: 1px solid #ECECEC;
+    border-right: 1px solid #ECECEC;
+}
+.middlebar div#search i{
+    margin-top: 18px;
+    color: #7F7F7F;
+
+    
+}
+
+.nexttosearch{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+
+}
+.middlebar div#nexttosearch i{
+    color: red;
+    
+}
+.bottombar{
+    background:#ffdd33;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 4%;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 13px;
+}
+
+
+.wrapper-create{
+    position: relative;
+    width: 100%;
+    margin-left:auto;
+    margin-right:auto;
+    height:440px;
+    background: beige;
+}
+.create-left{
+z-index:-1;
+width: 99%;
+height:136px;
+margin-left: 0.5%;
+margin-right: 0.5%;
+background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/06/infiity-796x401.jpg");
+float:left;
+background-size: cover;
+}
+.wrapper-create .create-left #red-gradient{
+position: absolute;
+top: 0;
+width: 99%;
+height: 136px;
+}
+.wrapper-create .create-left #insights{
+position: relative;
+bottom: -25px;
+width: 100%;
+height: 20px;
+margin-top: 7px;
+
+font-size: 14px;
+
+
+}
+.create-left #insights a{
+color: #fff;
+}
+.wrapper-create .create-left #crypto{
+
+width: 100%;
+font-weight: 900;
+color: #fff;
+}
+/*  titles first photo*/
+.wrapper-create .create-left #crypto a{
+    position: relative;
+    bottom: -20px;
+font-size: 20px;
+font-family: Avalon, sans-serif;
+color: #fff;
+
+}
+.wrapper-create .create-left ul li{
+
+display: inline;
+font-size: 11px;
+color: #fff;
+}
+.wrapper-create .create-left ul li a{
+    
+color: white;
+}
+.create-right{
+width: 99%;
+
+height: 272px;
+}
+
+.wrapper-create .create-right #photo-up{
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/06/robot1200-796x417.png");
+    background-size: cover;
+    
+    
+}
+.wrapper-create .create-right #photo-down{
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/06/Mario-Battle-Royale-Featured-796x417.jpg");
+    background-size: cover;
+}
+
+.wrapper-create .create-right .picture a{
+    position: relative;
+   
+font-size: 20px;
+font-family: Avalon, sans-serif;
+color: #fff;
+font-weight: 900;
+
+}
+.wrapper-create .create-right .picture .ais{
+    position: relative;
+    left: 10px;
+    width: 100%;
+    height: 63px;
+
+    margin-top: 10px;
+}
+.wrapper-create .create-right .picture .ais a{
+    font-size: 20px;
+    font-family: Avalon, sans-serif;
+    color: white;
+}
+.wrapper-create .create-right .picture ul li{
+    display: inline;
+font-size: 11px;
+color: #fff;
+}
+.wrapper-create .create-right ul li a{
+    display: inline;
+font-size: 11px !important;
+color: #fff;
+}
+
+.latest{
+    width: 100%;
+    
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    
+}
+
+.latest h1{
+    font-family: Avalon, sans-serif;
+    font-size: 24px;
+    color: #ff4422;
+    margin-left:1%;
+    
+}
+.wrapper-latest-pic{
+    width: 100%;
+    min-height: 75px;
+    padding: 12px;
+    background-color: white;
+    text-align: left;
+
+}
+
+.wrapper-latest-pic picture img{
+    width: 75px;
+    height: 75px;
+    float:left;
+    margin-right: 1%;
+}
+
+.wrapper-latest-pic picture h4{
+    margin: 0;
+    color: black;
+    text-decoration: none;
+    font-size:14px;
+}
+.wrapper-latest-pic picture h4 a{
+    text-decoration: none;
+    color: black;
+}
+.wrapper-latest-pic ul{
+    padding-left: 0;
+    margin: 0;
+    
+    
+}
+.wrapper-latest-pic li{
+    display: inline;
+    color: #AAA;
+    font-size:11px;
+}
+.wrapper-latest-pic li a{
+    color: #AAA;
+    text-decoration: none;
+}
+
+
+
+.funding{
+    clear:both;
+    width: 100%;
+    margin-left:auto;
+    margin-right: auto;
+   
+}
+.funding .title h1{
+    color: #ff4422;
+    font-size: 24px;
+    padding: 0 10px;
+}
+.funding .title h1:hover{
+    color: black;
+}
+
+.funding-box{
+    height:291px;
+    width: 96%;
+    background:rgba(255,68,34,.05);
+    
+    border:10px solid white;
+   
+}
+
+.funding .subtitle ul li{
+    color: #ff4422;
+    height: 30px;
+    font-size: 13px;
+}
+.funding .subtitle ul li:hover{
+    color: black;
+}
+.funding-box:last-child{
+   display:none;
+   
+}
+
+.funding-box p{
+    font-size: 13px;
+    line-height: 20px;
+    color:darkslategray;
+}
+.funding-box a{
+    font-size: 13px;
+    line-height: 20px;
+    color:gray;
+}
+
+.headerbox{
+    background:#f42;
+    
+  display:inline-block;
+  width: 100%;
+   background: linear-gradient(#f42 0, #f42 50%, rgba(255,68,34,.08) 51%, rgba(255,68,34,.08) 100%);
+   font-size: 16px;
+   line-height: 1px;
+}
+
+.imagebox{
+    height:100px;
+    width: 60px;
+    margin-left:3%;
+    margin-top:4%;
+    vertical-align: middle;
+    float:left; 
+}
+
+.headerbox p{
+  
+    
+    color:black;
+    
+    vertical-align: top;
+   
+}
+.headerbox h3{
+    color:white;
+    margin-bottom: 52px;
+    margin-left: 89px;
+    font-size:18px;
+}
+
+
+
+.tags{
+    
+    border-bottom: 1px solid orangered;
+    text-align: left;
+}
+
+.headerbox img{
+    height:60px;
+    width: 60px;
+    margin-left:3%;
+    margin-top:4%;
+    vertical-align: middle;
+    float:left;
+}
+.bot-text{
+    margin-left:100px;
+}
+
+
+
+.eightboxes{
+    position: relative;
+    width: 100%;
+    max-height: 2800px;
+    min-height: 4789px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    
+
+}
+
+.apps{
+    width: 96%;
+  
+    float: left;
+    padding: 12px;
+   
+    
+}
+.apps h2{
+    color:orangered;
+   
+    
+}
+
+.image-description{
+width:100%;
+height:267px;
+background: url(img/image1.jpg);
+background-size:cover;
+background-repeat:no-repeat;
+color:white;
+font-size: 12px;
+}
+.image-description2{
+    width:100%;
+    height:267px;
+    background: url(img/image2.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    color:white;
+    font-size: 12px;
+    }
+
+    .image-description3{
+        width:100%;
+        height:267px;
+        background: url(img/image3.jpeg);
+        background-size:cover;
+        background-repeat:no-repeat;
+        color:white;
+        font-size: 12px;
+        }
+        .image-description4{
+            width:100%;
+            height:267px;
+            background: url(img/image4.jpg);
+            background-size:cover;
+            background-repeat:no-repeat;
+            color:white;
+            font-size: 12px;
+            }
+            .image-description5{
+                width:100%;
+                height:267px;
+                background: url(img/image5.jpeg);
+                background-size:cover;
+                background-repeat:no-repeat;
+                color:white;
+                font-size: 12px;
+                }
+                .image-description6{
+                    width:100%;
+                    height:267px;
+                    background: url(img/image6.jpeg);
+                    background-size:cover;
+                    background-repeat:no-repeat;
+                    color:white;
+                    font-size: 12px;
+                    }
+                    .image-description7{
+                        width:100%;
+                        height:267px;
+                        background: url(img/image7.jpg);
+                        background-size:cover;
+                        background-repeat:no-repeat;
+                        color:white;
+                        font-size: 12px;
+                        }
+                        .image-description8{
+                            width:100%;
+                            height:267px;
+                            background: url(img/image8.jpg);
+                            background-size:cover;
+                            background-repeat:no-repeat;
+                            color:white;
+                            font-size: 12px;
+                            }
+.text-img {
+    position:relative;
+    top:150px;
+   
+   
+}
+
+.text-img h2{
+    color:white;
+   
+   
+}
+.topic-list{
+    font-size:15px;
+    color:gray;
+    float:left;
+    line-height: 1.5em;
+}
+.topic-list li{
+margin-left: -32px;
+border-bottom: 1px solid #EDEDED;
+}
+.topic-list ul{
+    margin-left: -10px;
+    }
+
+.topic-list ul li:before {
+    /* Unicode bullet symbol */
+    content: '\2022 ';
+    /* Bullet color */
+    color: orangered;
+    padding-right: 0.5em;
+    
+}
+
+
+.background-gradient{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,.4) 0, rgba(0, 0, 0, .5) 50%, rgba(0,0,0,.7) 51%, rgba(0,0,0,.8) 100%);
+}
+
+.contest{
+height:100px;
+background: rgba(255,68,34,.15);
+}
+.image-context{
+    width: 84px;
+    height: 100px;
+    float:right;
+    background: url(img/context1.jpg);
+    background-size:cover;
+}   
+.contest-text{
+    width: 75%;
+    float:left;
+}
+.contest-text h2{
+    color:orangered;
+    font-size: 15px;
+}
+
+.latest-deals{
+    width: 100%;
+    
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 1148px;
+    min-height: 1037px;
+    
+}
+.latest-deals-picture{
+   width: 100%;
+    padding: 12px;
+   margin-bottom:3%;
+    float: left;
+   
+    
+}
+
+
+.latest-deals-picture p{
+   margin-left:1%;
+   margin-bottom:3%;
+   line-height: 1;
+position: relative;
+top: -13px;
+    
+}
+
+
+del{
+    text-decoration:  line-through;
+    font-size:14px;
+    margin-left:1%;
+    color:gray;
+    position: relative;
+top: -21px;
+}
+
+ins{
+    position: relative;
+    top: -21px;
+    font-size:17px;
+}
+.latest-deals-picture img{
+
+width: 75px;
+height: 75px;
+}
+
+.latest-deals-picture picture{
+    float:left;
+     
+ }
+
+.latest-deals-picture a{
+    color:black;
+    text-decoration: none;
+    margin-top:-10px !important;
+    }
+
+    .title2{
+        width: 50%;
+        text-align: left;
+        float:left;
+        vertical-align: top;
+        font-weight: 900;
+        color:#f42;
+        font-size:5vw;
+    }
+    .subtitle2{
+        width: 50%;
+       text-align:right;
+        float:right;
+        font-weight: 300;
+        font-size:3vw;
+    }
+
+    footer{
+       position: relative;
+    width: 100%;
+    height: 284px;
+    text-align:center;
+    background-color: #131313;
+    color:white;
+    clear:both;
+    
+        
+    }
+    footer li{
+       display:inline-block;
+       margin-top:2%;
+       margin-right: 5px;
+      
+       
+      
+    }
+    
+    .footer-icons li{
+        display:inline-block;
+        margin-top:2%;
+        margin-right: 5px;
+        width: 40px;
+        height: 40px;
+        background: gray;
+        color:black;
+     border-radius: 50%;
+     line-height: 40px;
+     vertical-align: middle;
+     
+     }
+    
+     .footer-icons li:hover{
+        cursor:pointer;
+     
+     }
+    
+     .footer-icons li:hover{
+       background: darkgrey;
+       cursor: pointer;
+     }
+    
+    .footer-up{
+        padding: 10px;
+    }
+    .footer-down{
+        display: none;
+    }
+    .footer-down-small{
+        bottom: 0;
+      line-height: 70px;
+        background: black;
+        margin-top:5%;
+        height:43px;
+        padding: 40px 0;
+      vertical-align: bottom;
+      font-size: 12px;
+    }
+    .footer-down-small span{
+        display: block;
+        width: 100%;
+        height: 19.5px;
+    }
+    .footer-down-small #logo{
+        width: 37px;
+        height: 9px;
+    }
+    .footer-down-small #letters{
+        width: 65px;
+        height: 9px;
+
+    }
+    .footer-down-small span b{
+        color: red;
+    }
