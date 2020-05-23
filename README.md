@@ -14,13 +14,13 @@ This project is based on this: [The Next Web website](https://thenextweb.com/), 
 
 👤 **Antonio Fernandes**
 
-- Github: [@github/trox115](https://github.com/trox115)
+[Github](https://github.com/trox115) | [Twitter](https://twitter.com/rock_67) | [LinkedIn](https://www.linkedin.com/in/antoniomfernandes/) | [Email](mailto:email@antoniofernandes.com) | [Portfolio](https://www.antoniofernandes.com/)
 
 
 👤 **Gonza Javier Mancilla**
 
-- Github: [@github/gonjavi](https://github.com/gonjavi)
-- Linkedin: [linkedin](https://www.linkedin.com/in/g-javier-mancilla-a686a9178/)
+
+[Github](https://github.com/gonjavi) | [LinkedIn](https://www.linkedin.com/in/g-javier-mancilla-a686a9178/) 
 
 
 ## Live Demo
@@ -32,6 +32,14 @@ This project is based on this: [The Next Web website](https://thenextweb.com/), 
 
 Contributions, issues and feature requests are welcome!
 
+# Running Guide
+
+```Shell
+your@pc:~$ git clone https://github.com/trox115/nextweb.git
+your@pc:~$ cd nextweb
+
+```
+then in your browser you open index.html
 
 ## Show your support
 
