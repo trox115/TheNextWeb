@@ -30,7 +30,7 @@ This project is based on this: [The Next Web website](https://thenextweb.com/), 
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!
+Contributions, issues, and feature requests are welcome!
 
 # Running Guide
 
@@ -39,7 +39,7 @@ your@pc:~$ git clone https://github.com/trox115/nextweb.git
 your@pc:~$ cd nextweb
 
 ```
-then in your browser you open index.html
+then in your browser, you open index.html
 
 ## Show your support
 
