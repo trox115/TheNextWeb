@@ -35,6 +35,7 @@ your@pc:~$ cd thenextweb
 
 ```
 
+
 then in your browser, you open index.html
 
 ## Show your support
