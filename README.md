@@ -1,13 +1,13 @@
 # Project: Responsive WebDesign
 
-This project is based on this: [The Next Web website](https://thenextweb.com/), as a part of the assignment for microverse using concepts of **HTML5** , **media queries** and **CSS3**, to create a responsive website.
+This project is based on this: [The Next Web website](https://thenextweb.com/), as a part of the assignment for microverse using concepts of HTML5, media queries, and CSS3 to create a responsive website.
 
 ![screenshot](./thenextweb.png)
 
 ## Built With
 
-- HTML5
-- CSS3
+- HTML
+- CSS
 
 ## Authors
 
@@ -15,7 +15,7 @@ This project is based on this: [The Next Web website](https://thenextweb.com/), 
 
 [Github](https://github.com/trox115) | [Twitter](https://twitter.com/rock_67) | [LinkedIn](https://www.linkedin.com/in/antoniomfernandes/) | [Email](mailto:email@antoniofernandes.com) | [Portfolio](https://www.antoniofernandes.com/)
 
-👤 **Gonza Javier Mancilla**
+👤 **Gonzalo Javier Mancilla**
 
 [Github](https://github.com/gonjavi) | [LinkedIn](https://www.linkedin.com/in/g-javier-mancilla-a686a9178/)
 
@@ -30,8 +30,8 @@ Contributions, issues, and feature requests are welcome!
 # Running Guide
 
 ```Shell
-your@pc:~$ git clone https://github.com/trox115/thenextweb.git
-your@pc:~$ cd thenextweb
+your@pc:~$ git clone https://github.com/trox115/TheNextWeb.git
+your@pc:~$ cd TheNextWeb
 
 ```
 
